@@ -1,7 +1,7 @@
 package edu.handong.csee.java.exceptionhandle.example.prob1; // set the package where this belongs to
 
-import java.util.Scanner;
-import java.util.Random;
+import java.util.Scanner; // bring the scanner class from java library
+import java.util.Random; // bring the random class from java library
 
 public class Prob1 {
 

@@ -4,11 +4,11 @@ public class SpeedLimiter {
 
 	private int speed = 0;
 	private int limit = 0;
-	
+
 	public SpeedLimiter(int limit, int speed) {
 		this.limit = limit;
 		this.speed = speed;
-		
+
 	}
 
 	public void warnSpeedLim()
@@ -25,8 +25,8 @@ public class SpeedLimiter {
 			System.out.println("You are being fined. ");
 		}
 		System.out.println("Your current speed: " + this.speed);	
-			
-		}
+
 	}
-	
+}
+
 

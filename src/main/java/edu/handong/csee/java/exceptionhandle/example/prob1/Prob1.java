@@ -16,7 +16,7 @@ public class Prob1 {
 		limit = keyboard.nextInt();
 		speed = rand.nextInt(101);
 		
-		SpeedLim lim = new SpeedLim(limit, speed);
+		SpeedLimiter lim = new SpeedLimiter(limit, speed);
 		
 		lim.warnSpeedLim();
 		

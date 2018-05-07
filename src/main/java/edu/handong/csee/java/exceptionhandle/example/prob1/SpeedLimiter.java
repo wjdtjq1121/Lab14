@@ -1,11 +1,11 @@
 package edu.handong.csee.java.exceptionhandle.example.prob1;
 
-public class SpeedLim {
+public class SpeedLimiter {
 
 	private int speed = 0;
 	private int limit = 0;
 	
-	public SpeedLim(int limit, int speed) {
+	public SpeedLimiter(int limit, int speed) {
 		this.limit = limit;
 		this.speed = speed;
 		

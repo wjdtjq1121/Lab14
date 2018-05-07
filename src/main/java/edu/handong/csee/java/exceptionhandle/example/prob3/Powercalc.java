@@ -6,7 +6,7 @@ public class Powercalc {
 	{
 		long result = 0;
 		result = (long)Math.pow(n, p);
-		
+
 		if(n<0 || p<0)
 		{
 			throw new Exception("n or p should not be negative.");
@@ -17,6 +17,6 @@ public class Powercalc {
 		}
 		return result;		
 	}
-	
+
 
 }

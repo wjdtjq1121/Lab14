@@ -6,7 +6,7 @@ public class In_exception {
 
 	private int x = 0;
 	private int y = 0;
-	
+
 	public In_exception() {
 	}
 
@@ -29,7 +29,7 @@ public class In_exception {
 		catch(Exception e) {
 			System.out.println("Some other exception has occurred: " + e.getMessage());
 		}
-		
+
 	}
-	
+
 }

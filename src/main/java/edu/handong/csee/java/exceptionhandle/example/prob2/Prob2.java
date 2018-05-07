@@ -6,7 +6,7 @@ public class Prob2 {
 	{
 		int x;
 		int y;
-		
+
 		In_exception test = new In_exception();
 		test.errorDetect();
 	}

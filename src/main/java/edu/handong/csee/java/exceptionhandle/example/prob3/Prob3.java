@@ -10,7 +10,7 @@ public class Prob3 {
 	public static void main(String[] args) {
 		System.out.println("Enter two inegers to execute pow method: ");
 		while(in.hasNextInt()) {
-					
+
 			int n = in.nextInt();
 			int p = in.nextInt();
 			try {

@@ -3,7 +3,7 @@ package edu.handong.csee.java.exceptionhandle.example.prob5;
 public class MyException extends Exception{
 
 	private String message = null;
-	
+
 	public MyException() {
 		super();
 	}
